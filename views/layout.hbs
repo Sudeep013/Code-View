@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+  
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/theme/monokai.min.css">
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+   
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/javascript/javascript.min.js"></script>
+    
+  </head>
+  <body class='bg-zig'>
+    <header class="header">
+		  <h1 class="logo"><a href="/">CodeView</a></h1>
+      <ul class="main-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          {{#if isAuthenticated}}
+              <li><a href="#">User</a></li>
+              <li><a href="/logout">Logout</a></li>
+          {{else}}
+              <li><a href="/login">Login</a></li>
+              <li><a href="/register">Register</a></li>
+          {{/if}}
+      </ul>
+  	</header> 
+    <div class="main">
+      {{{body}}}
+    </div>
+    <footer class="footer">
+      <p>© 2021 Codeview</p>
+    </footer>
+  </body>
+</html>
