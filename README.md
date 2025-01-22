@@ -18,11 +18,11 @@ Code View is a collaborative real-time code editor and viewer. This project enab
 ## 🖼️ Screenshots
 
 ### 1. Home Page
-![Home Page](assets/img-1.png)
+![Home Page](assets/img-1.PNG)
 
 ### 2. Code View in Action
-![Pathfinding](assets/img-2.png)
-![Pathfinding](assets/img-3.png)
+![Code View](assets/img-2.PNG)
+![Code View](assets/img-3.PNG)
 
 ---
 
