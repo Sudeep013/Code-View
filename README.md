@@ -15,6 +15,15 @@ Code View is a collaborative real-time code editor and viewer. This project enab
 - **Database:** MongoDB
 - **Real-time Communication:** Socket.io
 
+## 🖼️ Screenshots
+
+### 1. Home Page
+![Home Page](assets/img-1.png)
+
+### 2. Code View in Action
+![Pathfinding](assets/img-2.png)
+![Pathfinding](assets/img-3.png)
+
 ---
 
 ## Installation
